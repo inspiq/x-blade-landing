@@ -1,0 +1,53 @@
+/* BODY */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--family-body) !important;
+  background-color: var(--color-body);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ul, H1, H2, H3, H4, H5 */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* p */
+p {
+  margin: 0;
+}
+
+/* BUTTON */
+button {
+  padding: 0;
+  outline: none;
+}
+
+/* GRID */
+.layout-container,
+.layout-grid {
+  max-width: var(--container-width);
+  margin-left: var(--grid-margin-x);
+  margin-right: var(--grid-margin-x);
+  width: 100%;
+}
+
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-cols), var(--grid-col-width));
+  column-gap: var(--grid-gutter);
+}

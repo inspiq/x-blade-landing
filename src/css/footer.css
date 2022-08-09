@@ -1,0 +1,39 @@
+/* FOOTER */
+.footer {
+ height: 120px;
+ align-items: center;
+ display: flex;
+ background: var(--color-black);
+ border-top: 1px solid var(--color-text);
+}
+
+.footer .layout-container {
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+}
+
+.politics > a {
+ color: var(--color-white);
+ font-weight: var(--regular);
+ font-size: var(--size-body);
+ line-height: var(--height-standart);
+}
+
+.copyright {
+ color: var(--color-add);
+ font-weight: var(--regular);
+ font-size: var(--size-body);
+ line-height: var(--height-standart);
+}
+
+.dev {
+ color: var(--color-white);
+ font-weight: var(--regular);
+ font-size: var(--size-body);
+ line-height: var(--height-standart);
+}
+
+.dev > span {
+ color: var(--color-main);
+}

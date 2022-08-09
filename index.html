@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-Blade Lightspeed</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- HEADER -->
+      <header class="header" id="header">
+        <nav class="nav layout-container">
+          <div class="nav__brand">
+            <div class="nav__brand-icon">
+              <a href="index.html">
+                <img
+                  src="assets/images/icons/star.png"
+                  alt="Звезда"
+                  width="32"
+                  height="32"
+                />
+              </a>
+            </div>
+            <div class="nav__brand-text">
+              <a href="index.html">Logotype</a>
+            </div>
+          </div>
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__items">
+              <li class="nav__item">
+                <a class="nav__link" data-href="#overview">Обзор</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" data-href="#advantages">Преимущества</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" data-href="#technology">Технологии</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" data-href="#characteristics">Характеристика</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__info">
+            <div class="nav__phone">
+              <div class="nav__phone-icon">
+                <img
+                  src="assets/images/icons/phone.png"
+                  alt="Телефон"
+                  width="24"
+                  height="24"
+                />
+              </div>
+              <div class="nav__phone-text">
+                <a href="tel:79199149511">+7 (919) 914-95-11</a>
+              </div>
+            </div>
+            <div class="nav__toggle" id="toggle-open">
+              <img
+                src="assets/images/icons/menu.png"
+                alt="Бургер"
+                width="24"
+                height="24"
+              />
+            </div>
+          </div>
+        </nav>
+      </header>
+      <header class="header-burger" id="header-burger">
+        <nav class="nav layout-container">
+          <div class="nav__title">
+            <h4>Меню</h4>
+          </div>
+          <div class="nav__menu-burger">
+            <ul class="nav__items-burger">
+              <li class="nav__item">
+                <a class="nav__link" data-href="#overview">Обзор</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" data-href="#slider-advantages">Преимущества</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" data-href="#technology">Технологии</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" data-href="#characteristics">Характеристика</a>
+              </li>
+            </ul>
+            <div class="nav__phone-burger">
+              <div class="nav__phone-icon">
+                <img
+                  src="assets/images/icons/phone.png"
+                  alt="Телефон"
+                  width="24"
+                  height="24"
+                />
+              </div>
+              <div class="nav__phone-text">
+                <a href="tel:79199149511"> +7 (919) 914-95-11 </a>
+              </div>
+            </div>
+          </div>
+          <div class="nav__toggle-close" id="toggle-close">
+            <img src="assets/images/icons/close.png" alt="Крестик" width="24" height="24" />
+          </div>
+        </nav>
+      </header>
+      <!-- MAIN -->
+      <section class="main">
+        <div class="layout-container">
+          <h1 class="main__title">X-Blade Litespeed</h1>
+          <button class="btn main__btn">
+            Заказать
+            <img src="assets/images/icons/loader.png" alt="Загрузка" class="download-icon" width="24" height="24">
+          </button>
+          <img
+            src="assets/images/bicycle/bicycle.png"
+            class="main__img"
+            alt="Велосипед"
+            width="1200"
+          />
+        </div>
+      </section>
+      <!-- OVERVIEW -->
+      <section class="overview" id="overview">
+        <div class="layout-grid">
+          <div class="overview__info">
+            <h2 class="overview__title">X-Blade Litespeed</h2>
+            <p class="overview__description">
+              Новая модель, новый стиль, и полное переосмысление
+              электровелосипеда
+            </p>
+            <button class="btn overview__btn">Заказать</button>
+          </div>
+          <div class="overview__video">
+            <div class="overview__video-bg" tabindex="0">
+              <div class="overview__video-lighten"></div>
+              <div class="overview__video-play"></div>
+              <img
+                src="assets/images/buttons/play.png"
+                alt="Кнопка воспроизвести"
+                class="overview__icon"
+                width="28"
+                height="32"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ADVANTAGES SLIDER -->
+      <section class="splide advantages-slider" id="slider-advantages">
+        <div class="splide__track layout-container">
+          <h2 class="advantages__title">Преимущества</h2>
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="advantages__img">
+                <img
+                  src="assets/images/items/item-1.png"
+                  alt="Велосипед"
+                  width="280"
+                  height="360"
+                />
+              </div>
+              <div class="advantages__info">
+                <h5 class="advantages__info-title">Съемная батарея</h5>
+                <p class="advantages__info-description">
+                  Место под небольшое описание преимущества, в несколько строк,
+                  не более трёх
+                </p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="advantages__img">
+                <img
+                  src="assets/images/items/item-2.png"
+                  alt="Велосипед"
+                  width="280"
+                  height="360"
+                />
+              </div>
+              <div class="advantages__info">
+                <h5 class="advantages__info-title">Дисковые тормоза</h5>
+                <p class="advantages__info-description">
+                  Место под небольшое описание преимущества, в несколько строк,
+                  не более трёх
+                </p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="advantages__img">
+                <img
+                  src="assets/images/items/item-3.png"
+                  alt="Велосипед"
+                  width="280"
+                  height="360"
+                />
+              </div>
+              <div class="advantages__info">
+                <h5 class="advantages__info-title">16 скоростей</h5>
+                <p class="advantages__info-description">
+                  Место под небольшое описание преимущества, в несколько строк,
+                  не более трёх
+                </p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="advantages__img">
+                <img
+                  src="assets/images/items/item-4.png"
+                  alt="Велосипед"
+                  width="280"
+                  height="360"
+                />
+              </div>
+              <div class="advantages__info">
+                <h5 class="advantages__info-title">Неоновая подсветка</h5>
+                <p class="advantages__info-description">
+                  Место под небольшое описание преимущества, в несколько строк,
+                  не более трёх
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- ADVANTAGES -->
+      <section class="advantages" id="advantages">
+        <div class="layout-container">
+          <h2 class="advantages__title">Преимущества</h2>
+          <div class="advantages__content">
+            <div class="advantages__item">
+              <div class="advantages__img">
+                <img
+                  src="assets/images/items/item-1.png"
+                  alt="Велосипед"
+                  width="280"
+                  height="360"
+                />
+              </div>
+              <div class="advantages__info">
+                <h5 class="advantages__info-title">Съемная батарея</h5>
+                <p class="advantages__info-description">
+                  Место под небольшое описание преимущества, в несколько строк,
+                  не более трёх
+                </p>
+              </div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__img">
+                <img
+                  src="assets/images/items/item-2.png"
+                  alt="Велосипед"
+                  width="280"
+                  height="360"
+                />
+              </div>
+              <div class="advantages__info">
+                <h5 class="advantages__info-title">Дисковые тормоза</h5>
+                <p class="advantages__info-description">
+                  Место под небольшое описание преимущества, в несколько строк,
+                  не более трёх
+                </p>
+              </div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__img">
+                <img
+                  src="assets/images/items/item-3.png"
+                  alt="Велосипед"
+                  width="280"
+                  height="360"
+                />
+              </div>
+              <div class="advantages__info">
+                <h5 class="advantages__info-title">16 скоростей</h5>
+                <p class="advantages__info-description">
+                  Место под небольшое описание преимущества, в несколько строк,
+                  не более трёх
+                </p>
+              </div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__img">
+                <img
+                  src="assets/images/items/item-4.png"
+                  alt="Велосипед"
+                  width="280"
+                  height="360"
+                />
+              </div>
+              <div class="advantages__info">
+                <h5 class="advantages__info-title">Неоновая подсветка</h5>
+                <p class="advantages__info-description">
+                  Место под небольшое описание преимущества, в несколько строк,
+                  не более трёх
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TECHNOLOGY -->
+      <section class="technology" id="technology">
+        <div class="layout-container">
+          <h2 class="technology__title">Технологии</h2>
+          <div class="technology__description">
+            <p>
+              Когда ваш телефон подключается к велосипеду, он становится ещё
+              умнее. Связанный с каждым вашим движением и в поисках того, что
+              впереди, теперь у вас есть шанс побродить и удивиться.
+            </p>
+            <p>
+              Благодаря тому, что велосипед постоянно следит за дорогой,
+              он будет держать вас в курсе событий. Ваша следующая поездка
+              больше не зависит от случайных событий.
+            </p>
+          </div>
+          <div class="technology__img">
+            <div class="technology__img-info">
+              <h4 class="technology__img-title">Приложение</h4>
+              <p class="technology__img-description">
+                Благодаря тому, что велосипед постоянно следит
+                <br />
+                за дорогой, он будет держать вас в курсе событий.
+              </p>
+            </div>
+            <div class="technology__links">
+              <form class="technology__link">
+                <button class="technology__btn">
+                  <img
+                    src="assets/images/buttons/appstore.png"
+                    alt="AppStore"
+                    width="120"
+                    height="40"
+                  />
+                </button>
+              </form>
+              <form class="technology__link">
+                <button class="technology__btn">
+                  <img
+                    src="assets/images/buttons/googleplay.png"
+                    alt="Google Play"
+                    width="135"
+                    height="40"
+                  />
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CHARACTERISTICS -->
+      <section class="characteristics" id="characteristics">
+        <div class="layout-container">
+          <h2 class="characteristics__title">Характеристики</h2>
+          <div class="characteristics__items">
+            <div class="characteristics__item">
+              <div class="characteristics__item-toggle" tabindex="0">
+                <div class="characteristics__item-info">
+                  <h4 class="characteristics__item-name">Основные</h4>
+                  <div class="characteristics__item-quantity">
+                    <h5>8</h5>
+                  </div>
+                </div>
+                <div class="characteristics__item-arrow">
+                  <img src="assets/images/icons/down.png" alt="Стрелка" />
+                </div>
+              </div>
+              <div class="characteristics__cells">
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Цена</p>
+                  <p class="characteristics__cell-description">от 160 000₽</p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Цвет</p>
+                  <p class="characteristics__cell-description">
+                    Черный, Хаки, Песочный
+                  </p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Высота</p>
+                  <p class="characteristics__cell-description">
+                    Оптимизирован для велосипедистов ростом от 170 до 195 см
+                  </p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Вес</p>
+                  <p class="characteristics__cell-description">
+                    Общий вес 18,9 кг, включая аккумулятор
+                  </p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Батарея</p>
+                  <p class="characteristics__cell-description">
+                    Автономность до 70 км
+                  </p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Скорость</p>
+                  <p class="characteristics__cell-description">25 км/ч</p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">В комплекте</p>
+                  <p class="characteristics__cell-description">
+                    Шестигранные ключи на 3 мм, 4 мм, 5 мм и 6 мм, гаечный ключ
+                    для ремня (Spa 1), передние и задние фонари STVZO,
+                    4x рефлектора для спиц, задний рефлектор, крепление для
+                    телефона, звонок
+                  </p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Гарантия</p>
+                  <p class="characteristics__cell-description">2 года</p>
+                </div>
+                <div class="characteristics__cell-end"></div>
+              </div>
+            </div>
+            <div class="characteristics__item">
+              <div class="characteristics__item-toggle" tabindex="0">
+                <div class="characteristics__item-info">
+                  <h4 class="characteristics__item-name">Велосипед</h4>
+                  <div class="characteristics__item-quantity">
+                    <h5>4</h5>
+                  </div>
+                </div>
+                <div class="characteristics__item-arrow">
+                  <img src="assets/images/icons/down.png" alt="Стрелка" />
+                </div>
+              </div>
+              <div class="characteristics__cells">
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Рама</p>
+                  <p class="characteristics__cell-description">Алюминий</p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Вилка</p>
+                  <p class="characteristics__cell-description">Жесткая</p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">
+                    Переключатель передач
+                  </p>
+                  <p class="characteristics__cell-description">7 скоростей</p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">
+                    Режимы использования
+                  </p>
+                  <p class="characteristics__cell-description">
+                    Скутер, Помощь, Педальный
+                  </p>
+                </div>
+                <div class="characteristics__cell-end"></div>
+              </div>
+            </div>
+            <div class="characteristics__item">
+              <div class="characteristics__item-toggle" tabindex="0">
+                <div class="characteristics__item-info">
+                  <h4 class="characteristics__item-name">Электроника</h4>
+                  <div class="characteristics__item-quantity">
+                    <h5>6</h5>
+                  </div>
+                </div>
+                <div class="characteristics__item-arrow">
+                  <img src="assets/images/icons/down.png" alt="Стрелка" />
+                </div>
+              </div>
+              <div class="characteristics__cells">
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Время зарядки</p>
+                  <p class="characteristics__cell-description">
+                    100% зарядка за 3,5 часа
+                  </p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">
+                    Пробег на одной зарядке
+                  </p>
+                  <p class="characteristics__cell-description">
+                    15-20 км (для 162.8 Вт*ч), 20-25 км (для 214.8 Вт*ч)
+                  </p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Аккумулятор</p>
+                  <p class="characteristics__cell-description">
+                    36 Вольт, 162.8 / 214.6 Вт*ч
+                  </p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Мотор</p>
+                  <p class="characteristics__cell-description">
+                    Мотор-колесо, бесщеточный, 235 Вт
+                  </p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Режима помощи</p>
+                  <p class="characteristics__cell-description">10 уровней</p>
+                </div>
+                <div class="characteristics__cell">
+                  <p class="characteristics__cell-title">Мощности мотора</p>
+                  <p class="characteristics__cell-description">16 уровней</p>
+                </div>
+                <div class="characteristics__cell-end"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ORDER -->
+      <section class="order">
+        <div class="layout-container">
+          <h2 class="order__title">X-Blade Litespeed</h2>
+          <div class="order__choice">
+            <form class="order__checkbox">
+              <label class="order__custom-checkbox">
+                <input
+                  class="order__checkbox-black"
+                  type="checkbox"
+                  id="checkbox-input"
+                  checked
+                />
+                <div class="order__checkmark" tabindex="0">
+                  <img
+                    src="assets/images/icons/check.png"
+                    class="checkmark"
+                    alt="Галка"
+                    width="24"
+                    height="24"
+                  />
+                </div>
+              </label>
+              <label class="order__custom-checkbox">
+                <input
+                  class="order__checkbox-beige"
+                  type="checkbox"
+                  id="checkbox-input"
+                />
+                <div class="order__checkmark-two" tabindex="0">
+                  <img
+                    src="assets/images/icons/check-black.png"
+                    class="checkmark"
+                    alt="Галка"
+                    width="24"
+                    height="24"
+                  />
+                </div>
+              </label>
+              <label class="order__custom-checkbox">
+                <input
+                  class="order__checkbox-grey"
+                  type="checkbox"
+                  id="checkbox-input"
+                />
+                <div class="order__checkmark-three">
+                  <img
+                    src="assets/images/icons/check.png"
+                    class="checkmark"
+                    alt="Галка"
+                    width="24"
+                    height="24"
+                  />
+                </div>
+              </label>
+            </form>
+            <button class="btn order__btn">Заказать</button>
+          </div>
+          <div class="order__bicycle">
+            <img
+              src="assets/images/bicycle/bicycle.png"
+              alt="Велосипед"
+              width="870"
+              height="480"
+              class="order__bicycle-black"
+            />
+            <img
+              src="assets/images/bicycle/bicycle3.png"
+              alt="Велосипед"
+              width="870"
+              height="480"
+              class="order__bicycle-beige order__d-none"
+            />
+            <img
+              src="assets/images/bicycle/bicycle2.png"
+              alt="Велосипед"
+              width="870"
+              height="480"
+              class="order__bicycle-grey order__d-none"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="layout-container">
+          <p class="politics">
+            <a href="index.html"> Политика конфиденциальности </a>
+          </p>
+          <p class="copyright">© X-Blade Litespeed, 2022</p>
+          <p class="dev">Разработка сайта — <span>inspiq</span></p>
+        </div>
+      </footer>
+    </div>
+    <!-- LINK JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- LINK SCRIPTS -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

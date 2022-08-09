@@ -1,0 +1,57 @@
+:root {
+ /* GRID */
+ --grid-cols: 12;
+ --grid-margin-x: auto;
+ --grid-col-width: 80px;
+ --grid-gutter: 20px;
+ --container-width: calc(var(--grid-cols) * var(--grid-col-width) + (var(--grid-cols) - 1) * var(--grid-gutter));
+
+ /* FONT FAMILY */
+ --family-body: 'Ubuntu', sans-serif;
+
+ /* FONT WEIGHT */
+ --regular: 400;
+ --medium: 500;
+ --bold: 700;
+
+ /* FONT SIZE */
+ --size-h1: 200px;
+ --size-h2: 64px;
+ --size-h3: 32px;
+ --size-h4: 21px;
+ --size-h5: 18px;
+ --size-h6: 18px;
+ --size-btn: 14px;
+ --size-main: 16px;
+ --size-body: 14px;
+ --size-brand: 24px;
+
+ /* COLORS */
+ --color-body: #F5F5F5;
+ --color-black: #181818;
+ --color-main: #F52D2D;
+ --color-hover: #D61F1F;
+ --color-pressed: #B10E0E;
+ --color-text: #393939;
+ --color-add: #ACACAC;
+ --color-white: #FFFFFF;
+ --color-focus: #9747FF;
+ --color-beige: #E8DFC8;
+ --color-grey: #6A7870;
+
+ /* LINE HEIGHT */
+ --height-large: 180px;
+ --height-big: 72px;
+ --height-medium: 32px;
+ --height-small: 28px;
+ --height-standart: 22px;
+
+ /* MARGIN */
+ --margin-section: 126px 0px 0px 0px;
+ --margin-title-main: 80px 0px 0px 0px;
+ --margin-btn-main: 60px 0px 0px 0px;
+ --margin-title-bottom: 0px 0px 64px 0px;
+
+  /* PADDING */
+  --padding-characteristics: 24px 40px 24px 40px;
+}
